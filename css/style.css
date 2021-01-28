@@ -1,3 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .navigation {
     list-style: none;
     padding: 0;
@@ -7,7 +19,6 @@
 .navigation-link {
     text-decoration: none;
     color: #939699;
-    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 14px;
@@ -28,10 +39,60 @@
     font-weight: 900;
     font-size: 14px;
 }
-.button-icon {
+.button-icon, .button-price {
     margin-right: 10px;
 }
 
-.cart-text {
-
+.slide {
+    padding-top: 90px;
+    padding-bottom: 110px;
+    position: relative;
 }
+
+.slide-1 {
+    background: #B4D1E0 no-repeat url('../img/slide-1.png') top right 38%;
+}
+
+.label {
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
+    padding: 5px 12px;
+    background: #3DC47E;
+    border-radius: 3px;
+}
+
+.slide-title {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+    color: #262D33;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.slide-description {
+    max-width: 335px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4B5157;
+    margin-bottom: 40px;
+}
+
+.slider-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.slider-button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
